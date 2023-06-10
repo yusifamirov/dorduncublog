@@ -1,0 +1,303 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: rgb(158, 4, 4);
+  font: inherit;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-nav {
+  margin-top: 20px;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 20px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Article Styles */
+section {
+  margin-top: 40px;
+}
+
+.article-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.article-author {
+  color: #666;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.article-content {
+  line-height: 1.8;
+  text-align: center;
+  padding: 70px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #eee;
+  color: #666;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Article */
+
+.shiningposter {
+  width: 240px;
+}
+
+.shiningimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 840px;
+  margin: 0 auto;
+}
+
+.shiningposters {
+  width: 240px;
+  margin: 20px;
+}
+
+.shiningtext {
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.qt1 {
+  margin-right: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+.qt2 {
+  width: 333px;
+}
+
+.qt3 {
+
+  width: 420px;
+  margin-left: 15px;
+}
+
+.qttext {
+  text-align: center;
+  font-size: 14pt;
+}
+
+.aphextext {
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.aphex1 {
+  width: 270px;
+}
+
+.aphex2 {
+  width: 280px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.aphex3 {
+  width: 280px;
+  margin-right: 10px;
+}
+
+.aphex4 {
+  width: 280px;
+  margin-right: 10px;
+}
+
+.aphex5 {
+  width: 280px;
+}
+
+.aphexmain {
+  text-align: center;
+  font-size: 14pt;
+}
+
+.apheximages {
+  margin: 10px;
+}
+
+.page-logo {
+  width: 100px;
+}
+
+.kw1 {
+  width: 500px;
+  height: 500px;
+}
+
+.kw2 {
+  width: 420px;
+  text-align: justify;
+}
+
+.kwtext {
+  font-size: 14pt;
+}
+
+.jmb1 {
+  width: 420px;
+}
+
+.jmb2 {
+  width: 600px;
+  height: 600px;
+}
+
+.jmbtext {
+  font-size: 14pt;
+}
+
+.vortextext {
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.vortex1 {
+  width: 420px;
+}
+
+
+
+.vorteximages {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  width: 480px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.teyanatext {
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.teyana1 {
+  margin-right: 5px;
+  width: 300px;
+}
+
+.teyana {
+  width: 280px;
+  margin-right: 10px;
+}
+
+.teyanaimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.kimdir {
+  width: 600px;
+  height: 600px;
+}
+
+.kimdircovers {
+  width: 480px;
+}
+
+.kimdirtext {
+  font-size: 18pt;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article-thumbnail {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+.article-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.article-thumbnail h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.article-thumbnail h3 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: red;
+}
+
+.homepage {
+  padding: 20px;
+}
